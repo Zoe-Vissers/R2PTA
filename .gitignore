@@ -1,0 +1,24 @@
+# --- python ----------------------------------------------------------------
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+.ipynb_checkpoints/
+dist/
+build/
+ 
+# --- conda / venv ----------------------------------------------------------
+.conda/
+venv/
+env/
+.venv/
+ 
+# --- editors / OS ----------------------------------------------------------
+.idea/
+.vscode/
+.DS_Store
+ 
+# --- large intermediates ---------------------------------------------------
+*.log
+driver.log
+nohup.out

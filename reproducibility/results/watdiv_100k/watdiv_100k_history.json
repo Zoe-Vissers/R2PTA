@@ -1,0 +1,29 @@
+[
+  {
+    "iteration": 0,
+    "num_clusters": 10,
+    "coverage": 0.9998221273568125,
+    "avg_internal_sim": 0.7443117972268329,
+    "avg_inter_cluster_sim": 0.010053654121020245,
+    "avg_cluster_size": 562.1,
+    "reassignment_rate": 1.0
+  },
+  {
+    "iteration": 1,
+    "num_clusters": 11,
+    "coverage": 0.9998221273568125,
+    "avg_internal_sim": 0.8069887299829306,
+    "avg_inter_cluster_sim": 0.019150697791962806,
+    "avg_cluster_size": 511.0,
+    "reassignment_rate": 0.025613660618996798
+  },
+  {
+    "iteration": 2,
+    "num_clusters": 11,
+    "coverage": 0.9998221273568125,
+    "avg_internal_sim": 0.8069887299829306,
+    "avg_inter_cluster_sim": 0.019150697791962806,
+    "avg_cluster_size": 511.0,
+    "reassignment_rate": 0.0
+  }
+]

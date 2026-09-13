@@ -1,0 +1,6 @@
+# pip/venv alternative to environment.yml. Same dependency set.
+rdflib==7.6.0
+scikit-learn==1.9.0 
+scipy==1.18.0
+numpy==2.5.0
+matplotlib==3.11.0 
