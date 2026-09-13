@@ -1,7 +1,7 @@
 # Type Abstraction - structural typing for RDF entities
 
 **License Notice**
-Unless otherwise stated, the source code in this repository is licensed under the MIT License. The MIT License does not apply to third-party data or other third-party material contained in this repository. For details, see [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES).
+Unless otherwise stated, the source code in this repository is licensed under the MIT License. The MIT License does not apply to third-party data or other third-party material contained in this repository. For details, see [THIRD_PARTY_LICENSES](THIRD_PARTY_LICENSES.md).
 
 **Type Abstraction**
 
