@@ -15,9 +15,20 @@ Bizer, C., & Schultz, A. (2011). The berlin sparql benchmark. In Semantic Servic
 
 GlycoEpitope
 ------
-This repository contains a [copy](datasets/glycoepitope.nt) of the [GlycoEpitope dataset](https://rdfportal.org/dataset/glycoepitope/) for reproducibility purposes. No modifications were made to the original dataset.
+This repository contains a [copy](datasets/glycoepitope.nt) of the [GlycoEpitope dataset](https://rdfportal.org/dataset/glycoepitope/) for reproducibility purposes. 
 
-- Original Provider: Ritsumeikan University
+
+- Original Provider: Kawasaki laboratory, Ritsumeikan University
+- Original Dataset: GlycoEpitope Database
+- Original Source: https://www.glycoepitope.jp/
+- RDF Portal Download Link: https://rdfportal.org/download/#glycoepitope
+- Copyright: © Ritsumeikan University, All Rights Reserved 
 - Creators: Tshisuke Kawasaki (Ritsumeikan University) and Shujiro Okuda (Niigata University)
-- License: [CC BY-SA 2.1 JP](https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en).
+- License: Creative Commons Attribution-ShareAlike 2.1 Japan [CC BY-SA 2.1 JP](https://creativecommons.org/licenses/by-sa/2.1/jp/deed.en).
 
+### Disclaimer of Liability Notice 
+GlycoEpitope Project does not assume or warrant the contents or accuracy or reliability of the information and does not assume any responsibility for any consequence of the receipt or use of the information. 
+
+---
+The dataset is redistributed in its original, unmodified form. No modifications have been made to the original dataset.
+The copyright notice, attribution information, and disclaimer notice from the original source have been retained.
