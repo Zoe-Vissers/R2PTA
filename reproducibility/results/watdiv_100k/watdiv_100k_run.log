@@ -1,0 +1,103 @@
+Logging to scale1/scale1_run.log
+================================================================
+CONFIGURATION
+================================================================
+  Input:               /home/zoe/data/watdiv/watdiv_100k.nt
+  Similarity:          IDF-weighted cosine
+  Threshold:           0.55
+  Min cluster size:    2
+  Max iterations:      5
+  Convergence e:       1.000%
+  Save all phases:     False
+  Output prefix:       scale1
+
+[Load] Parsing /home/zoe/data/watdiv/watdiv_100k.nt ...
+  103,152 triples parsed as 'nt' in 1.9s
+  Calling role_classifier.classify() ...
+  classify() returned 13,917 elements (5,622 NR) in 2.5s
+  5622 entity profiles built | total load time 4.7s
+
+================================================================
+ITERATIVE TYPE ABSTRACTION
+================================================================
+  -> Phase 0 (Baseline) ...
+
+────────────────────────────────────────────────────────────────
+  Phase 0  (Baseline)
+────────────────────────────────────────────────────────────────
+  Building feature vectors ...
+  Clustering ...
+    Distinct signatures: 1,050 (from 5,622 entities) | Comparisons: 495,311
+
+  Metric                                      Value
+  ──────────────────────────────────────────────────
+  Clusters                                       10
+  Coverage                                   100.0%
+  Avg cluster size                            562.1
+  Min / Max cluster size                  12 / 1500
+  Avg internal similarity                    0.7443
+  Avg inter-cluster sim                      0.0101
+  Separation score                           0.7343
+  Reassignment rate                         100.00%
+  Wall time                                    2.0s
+  -> Phase 1 (Refinement 1) ...
+
+────────────────────────────────────────────────────────────────
+  Phase 1  (Refinement 1)
+────────────────────────────────────────────────────────────────
+  Building feature vectors ...
+  Clustering ...
+    Distinct signatures: 1,051 (from 5,622 entities) | Comparisons: 495,319
+
+  Metric                                      Value
+  ──────────────────────────────────────────────────
+  Clusters                                       11
+  Coverage                                   100.0%
+  Avg cluster size                            511.0
+  Min / Max cluster size                  12 / 1500
+  Avg internal similarity                    0.8070
+  Avg inter-cluster sim                      0.0192
+  Separation score                           0.7878
+  Reassignment rate                           2.56%
+  Wall time                                    2.5s
+  -> Phase 2 (Refinement 2) ...
+
+────────────────────────────────────────────────────────────────
+  Phase 2  (Refinement 2)
+────────────────────────────────────────────────────────────────
+  Building feature vectors ...
+  Clustering ...
+    Distinct signatures: 1,051 (from 5,622 entities) | Comparisons: 495,319
+
+  Metric                                      Value
+  ──────────────────────────────────────────────────
+  Clusters                                       11
+  Coverage                                   100.0%
+  Avg cluster size                            511.0
+  Min / Max cluster size                  12 / 1500
+  Avg internal similarity                    0.8070
+  Avg inter-cluster sim                      0.0192
+  Separation score                           0.7878
+  Reassignment rate                           0.00%
+  Wall time                                    2.5s
+
+  Converged  (reassignment 0.000% <= e=1.000%)
+  Converged  (reassignment 0.000% <= e=1.000%)
+
+==============================================================================
+ITERATION HISTORY
+==============================================================================
+Phase        Clusters   Coverage   AvgSize    AvgSim  Reassigned
+──────────────────────────────────────────────────────────────────────────────
+Baseline           10    100.0%     562.1    0.7443    100.00%
+Refine 1           11    100.0%     511.0    0.8070      2.56%
+Refine 2           11    100.0%     511.0    0.8070      0.00%
+
+Outputs written to ./scale1/
+  scale1_final.nt
+  scale1_final_report.json
+  scale1_history.json
+  scale1_run.log
+
+Total wall time: 12.1s
+Done in 12.1s  |  see scale1/scale1_run.log
